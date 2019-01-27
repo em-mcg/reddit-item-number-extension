@@ -5,7 +5,7 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["*://www.reddit.com/*"],
+      "matches": ["*://www.reddit.com/", "*://www.reddit.com/r/*/"],
       "css": [],
       "js": ["infiniteScrollMod.js"]
     }
